@@ -28,7 +28,7 @@ BiocManager::install("MatrixGenerics")
 
 # Install SepstratifieR
 # install.packages("devtools")
-devtools::install_github("jknightlab/SepstratifieR")
+devtools::install_github("jhanse/SepstratifieR_SIPRES")
 ```
 
 ## Details
@@ -144,7 +144,7 @@ stratify a small set of patients into sepsis response groups:
 
 ``` r
 # Load package
-library(SepstratifieR)
+library(sepstratifierSIPRES)
 
 # Load test data set
 data(test_data)
