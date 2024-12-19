@@ -1,4 +1,4 @@
-Package: SepstratifieR_SIPRES
+Package: sepstratifierSIPRES
 Title: Stratification of infectious disease patients by gene expression profile - SIPRES update
 Version: 1.1
 Authors@R: 
