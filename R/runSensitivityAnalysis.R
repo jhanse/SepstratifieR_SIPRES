@@ -80,7 +80,7 @@ runSensitivityAnalysis <- function(dat, gene_set="davenport", plot=T, verbose=T)
   }
   SRSq_vars <- data.frame(
     sample_index = 1:nrow(dat),
-    variance = MatrixGenerics::rowVars(as.matrix(preds_SRSq)),
+    variance = MatrixGenerics::rowVars(as.matrix(preds_SRSq), useNames = TRUE),
     mnn_outlier = mnn_outliers,
     row.names = rownames(preds_SRSq)
   )
